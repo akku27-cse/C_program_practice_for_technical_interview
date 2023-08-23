@@ -1,0 +1,21 @@
+<html>
+<body bgcolor=green>
+<p>img to use:</p>
+<img id="screm" src=_20191014_064903.jpg alt=the screm width=220 height=221>
+<p>canvas to fill:</p>
+<canvas id="my canvas"width=250 height=300
+style=border:1px solid #d3d3d3;>
+your browser dose not support the html5 canvas taag.</canvas>
+<p><button oneclick=my anvas()>try it</button></p>
+<script>
+funcation my canvas(){
+var c=
+document.getElementby Id("my canvas");
+var ctx=c.getcontext("2d");
+var img=
+document.getElementById("screm"):
+ctx.drawImage(img,10,10);
+}
+</script>
+</body>
+</html>
